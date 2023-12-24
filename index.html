@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cajero Automático</title>
+  <link href="https://fonts.googleapis.com/css2?family=New+Romance&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="title-section">
+    <h1>Bienvenido al Cajero Automático</h1>
+  </div>
+  
+  <div class="options-section">
+    <div class="options-text">
+      <p>Selecciona una cuenta:</p>
+    </div>
+    <div class="options">
+      <select id="cuentas">
+        <option value="0">Mali</option>
+        <option value="1">Gera</option>
+        <option value="2">Maui</option>
+      </select>
+      <br>
+      <input type="password" id="password" placeholder="Ingresa tu contraseña">
+      <button onclick="verificar()">Ingresar</button>
+    </div>
+  </div>
+
+  <script src="cajero.js"></script>
+</body>
+</html>

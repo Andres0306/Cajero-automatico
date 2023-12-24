@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Opciones de Cuenta</title>
+  <link href="https://fonts.googleapis.com/css2?family=New+Romance&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="welcome-section">
+    <h1>Bienvenido a tu cuenta</h1>
+    <p id="nombreCuenta"></p>
+  </div>
+
+  <div class="amount-section">
+    <p id="saldo"></p>
+  </div>
+
+  <div class="options-section">
+    <button onclick="consultarSaldo()">Consultar Saldo</button>
+    <button onclick="ingresarMonto()">Ingresar Monto</button>
+    <button onclick="retirarMonto()">Retirar Monto</button>
+    <button onclick="cerrarSesion()">Cerrar Sesión</button>
+  </div>
+
+  <script src="cajero.js"></script>
+</body>
+</html>
